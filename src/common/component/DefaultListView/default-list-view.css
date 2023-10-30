@@ -1,0 +1,7 @@
+.list-data>.p-tabview>.p-tabview-panels {
+    padding: 1.25rem 0px !important;
+}
+
+.list-data>.p-tabview>.p-tabview-panels>.p-tabview-panel>div {
+    padding: 0px !important;
+}

@@ -1,0 +1,111 @@
+.bar-icon {
+    font-size: 3rem;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.close-icon {
+    font-size: 1.4rem;
+    margin-top: 3px;
+    cursor: pointer;
+    color: #ffff !important;
+}
+
+.header-side-nav {
+    height: 100% !important;
+    width: 0;
+    position: fixed;
+    z-index: 10;
+    top: 48px;
+    left: 0;
+    background-color: #1F497D;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 0;
+}
+
+.p-slidemenu {
+    background: #1F497D !important;
+    border: none !important;
+    border-radius: 4px;
+    color: #ffff;
+    padding: 0.5rem 0.5rem;
+    width: 19em !important;
+}
+
+.p-slidemenu .p-menuitem-link .p-menuitem-text {
+    color: #ffff !important;
+
+}
+
+.p-slidemenu .p-menuitem-link .p-menuitem-icon {
+    color: white !important;
+    margin-right: 0.5rem;
+}
+
+.p-slidemenu .p-menuitem-link:not(.p-disabled):hover .p-menuitem-text {
+    color: #1F497D !important;
+}
+
+.p-slidemenu .p-menuitem-link:not(.p-disabled):hover .p-menuitem-icon,
+.p-slidemenu .p-menuitem-link:not(.p-disabled):hover .p-submenu-icon {
+    color: #1F497D !important;
+}
+
+.p-slidemenu-backward .p-slidemenu-backward-icon,
+.p-slidemenu-backward span {
+    color: white !important;
+}
+
+.p-slidemenu .p-menuitem-link .p-submenu-icon {
+    color: white !important;
+}
+
+.close-Nav {
+    padding: 10px;
+    text-align: end;
+}
+
+.p-slidemenu-content::-webkit-scrollbar {
+    display: none !important;
+}
+
+.p-slidemenu .p-slidemenu-wrapper {
+    height: 100vh !important;
+}
+
+.bar-icon {
+    font-size: 24px !important;
+    color: #1F497D !important;
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    height: 57px;
+    padding: 1.3em 1em !important;
+}
+
+.logo-container {
+    height: auto;
+    width: auto;
+    max-width: 150px;
+}
+
+.logo-link {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.header-div {
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 4px;
+}

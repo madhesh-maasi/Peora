@@ -1,0 +1,42 @@
+.dashboard-wrapper {
+    background-color: #F2F2F2;
+    padding: 1.3rem 3rem;
+}
+
+.table-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.label-for-manage-stone {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.stone-link,
+.stone-link:active,
+.stone-link:focus,
+.stone-link:visited,
+.stone-link::selection {
+    text-decoration: none;
+    cursor: pointer;
+    color: #182642 !important;
+    font-weight: 500;
+}
+
+.stone-link:hover {
+    text-decoration: underline;
+}
+
+.stone-action-column-size {
+    width: 125px;
+}
+
+.status-inactive-tag {
+    opacity: .6;
+}
+
+.data-table::-webkit-scrollbar{
+    display: block !important;
+}

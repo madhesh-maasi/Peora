@@ -1,0 +1,83 @@
+export class InventoryListInitialState {
+    Id: number = undefined;
+    Title: string = "";
+    MFNSKU: string = "";
+    FBASKU: string = ""
+    Category: any = null;
+    CategoryId: number = undefined;
+    Vendor: any = null;
+    VendorId: number = undefined;
+    VendorRef1: string = "";
+    MtWtFOB: number = undefined;
+    MtWtFeed: number = undefined;
+    MetalType: any = null;
+    MetalTypeId: number = undefined;
+    OnFBA: boolean = false;
+    TierLevel: number = undefined;
+    AmzLaunch: any = null;
+    OfficeQty: number = undefined;
+    FBAQty: number = undefined;
+    OnOrder: number = undefined;
+    RestockLevel: number = undefined;
+    ReserveQty: number = undefined;
+    FBAQtyZeroDate: any = null;
+    OfficeQtyZeroDate: any = null;
+    Return: number = undefined;
+    RingSize: number = undefined;
+    Length: any = null;
+    LengthId: number = undefined;
+    Width: any = null;
+    WidthId: number = undefined;
+    SellingPrice: any = "";
+    FOBMountingCost: number = undefined;
+    LDMountCost: number = undefined;
+    MiscCost1: number = undefined;
+    MiscCost1Desc: any = "";
+    MiscCost2: number = undefined;
+    MiscCost2Desc: any = "";
+    StoneDetails: any = "";
+    Description: any = "";
+    BagComments: any = "";
+    BaseMetal: any = null;
+    BaseMetalId: number = undefined;
+    BaseStone: any = null;
+    BaseStoneId: number = undefined;
+    VIPSKU: boolean = false;
+    BoxType: any = null;
+    BoxTypeId: number = undefined;
+    InsertType: any = null;
+    InsertTypeId: number = undefined;
+    ChainType: any = null;
+    ChainTypeId: number = undefined;
+    BackingType: any = null;
+    BackingTypeId: number = undefined;
+    Gender: any = null;
+    Subcategory: any = null;
+    SubcategoryId: number = undefined;
+    Vendor2: any = null;
+    Vendor2Id: number = undefined;
+    VendorRef2: string = "";
+    Retired: boolean = false;
+    RetiredDate: any = null;
+    WatchList: boolean = false;
+    WatchListDate: any = null;
+    Modified: any = null;
+    Parentage: any = null;
+    ParentageId: number = undefined;
+    Photos: any = null;
+    TotalStoneCost: number = undefined;
+    TotalCost: number = undefined;
+    Inactive: boolean = false;
+    RecoverableCost: any = null;
+    RecoverableCostId: number = undefined;
+}
+
+export class SellingInitialState {
+    Actual: any = null;
+    Suggested: any = null;
+}
+
+export class CopyInitialState {
+    NewSku: string = ""
+    NewMFNSKU: string = "";
+}

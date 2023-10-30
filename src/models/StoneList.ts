@@ -1,0 +1,26 @@
+export class StoneListInitialState {
+    Id: number = undefined;
+    Title: string = "";
+    StoneCode: string = "";
+    StoneTypeId: any = null;
+    StoneTypeIdId: number = undefined;
+    StoneShapeId: any = null;
+    StoneShapeIdId: number = undefined;
+    StoneSizeId: any = null;
+    StoneSizeIdId: number = undefined;
+    StoneCutTypeId: any = null;
+    StoneCutTypeIdId: number = undefined;
+    StoneQualityId: any = null;
+    StoneQualityIdId: number = undefined;
+    VendorId1: any = null;
+    VendorId1Id: number = undefined;
+    VendorId2: any = null;
+    VendorId2Id: number = undefined;
+    WtEa: number = undefined;
+    WtEaRd: number = undefined;
+    Pct: number = undefined;
+    FOBEa: number = undefined;
+    LanEa: number = undefined;
+    Inactive: boolean = false;
+    Modified: any = null;
+}

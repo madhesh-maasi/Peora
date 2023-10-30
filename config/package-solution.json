@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "PEORA Inventory",
+    "id": "37ad948b-95c4-4ca4-b0e0-be7a25bae2d6",
+    "version": "1.0.1.7",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "PEORA Inventory description"
+      },
+      "longDescription": {
+        "default": "PEORA Inventory description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "PEORA Inventory Feature",
+        "description": "The feature that activates elements of the peora inventory solution.",
+        "id": "e0a7dd41-68b8-4a4e-bf96-13e283584d1b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/PEORA-Inventory.sppkg"
+  }
+}
